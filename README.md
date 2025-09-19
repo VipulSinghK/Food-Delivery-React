@@ -7,3 +7,4 @@ Key Features
 - Product Filtering Functionality: Efficient filtering of products based on categories.
 - Product Page: Detailed product information and images.
 - Cart and Checkout Page: Streamlined checkout process with cart summary.
+- Added Search bar for smooth filtering of objects.
