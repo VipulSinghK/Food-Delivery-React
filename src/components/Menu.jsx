@@ -10,14 +10,13 @@ function Menu() {
   useEffect(() => {
     let filteredItems = food_items;
     
-    // Apply search filter
     if (input) {
       filteredItems = filteredItems.filter((item) =>
         item.food_name.toLowerCase().includes(input.toLowerCase())
       );
     }
     
-    // Apply category filter
+   
     if (selectedCategory !== 'All') {
       filteredItems = filteredItems.filter((item) => item.food_category === selectedCategory);
     }
